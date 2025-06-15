@@ -1,0 +1,17 @@
+{
+  "name": "negarshop",
+  "description": "the most professional iranian woocommerce template",
+  "scripts": {
+    "watch": "sass --watch statics/scss/core.scss statics/css/core.css",
+    "watch-dev": "sass --watch --no-source-map statics/scss/core.scss statics/css/core.css",
+    "prod": "sass --no-source-map statics/scss/core.scss statics/css/core.css",
+    "app-watch": "sass --watch statics/scss/application.scss statics/css/application.css",
+    "app-prod": "sass --no-source-map statics/scss/application.scss statics/css/application.css",
+    "ltr": "rtlcss statics/css/core.css statics/css/core-ltr.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.0"
+  }
+}
